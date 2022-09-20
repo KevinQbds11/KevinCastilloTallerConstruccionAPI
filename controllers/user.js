@@ -1,7 +1,7 @@
 //import
 const {SERVER_ERROR} =require('../utils/constants');
 
-//Models
+//Model
 const {Company}=require ('../models/company');
 const {Customer}=require ('../models/customer');
 const {User}=require ('../models/user');
