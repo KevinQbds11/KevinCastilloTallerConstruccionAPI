@@ -30,28 +30,28 @@
 
         
 
-               for( var i=1 ; i < user.length; i++) { 
+              <% for( var i=1 ; i < user.length; i++) { %>
                     
                   <tr>  
                         <td>
-                            = user[i].user_id
+                            <%user[i].user_id%>
                         </td>
                         <td>
-                            user[i].user_name
+                            <% user[i].user_name%>
                         </td>
                         <td>
-                            user[i].user_date_of_birth
+                            <% user[i].user_date_of_birth%>
                         </td>
                         <td>
-                            user[i].created_at
+                            <% user[i].created_at%>
                         </td>
                         <td>
-                            user[i].updated_at
+                            <%  user[i].updated_at %>
                         </td>
                         
                   </tr> 
 
-                } 
+                <% } %>
                    
                     
             </table>
